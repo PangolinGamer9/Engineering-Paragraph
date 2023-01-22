@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Sets the title of the webpage -->
+    <title>Chat</title>
+
+    <!-- Makes sure that the webpage can be viewed well on mobile devices -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+
+    <!-- Imports the proper javascript and css files -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+  </head>
+  <body>
+    <form>
+
+      <div id='user-purpose'>
+        <label for="user-input">Enter your purpose:</label>
+        <input type="text" id="user-input">
+      </div>
+
+      <div id="observations">
+        <label for="amount-of-observations">How many observations did you make?</label>
+        <select id="amount-of-observations">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </div>
+
+      <div id="observe-inputs">
+
+      </div>
+
+      <div id = "logic">
+        <label for = "logic-input">What is your logic?</label>
+        <input id = "logic-input" type="text"></input>
+      </div>
+
+      <div id = "conclusion">
+        <label for = 'conclusion-input'>What is your conclusion: </label>
+        <input id = 'conclusion-input' type = "text"></input>
+      </div>
+
+      <button type="button" onclick="submitPrompt()" id="submit-button">Submit</button>
+    </form>
+
+    <div id="response">words</div>
+  </body>
+</html>
