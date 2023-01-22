@@ -23,7 +23,7 @@ async function submitPrompt() {
     {
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer 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"
         }
     });
     document.getElementById("response").innerHTML = response.data.choices[0].text;
