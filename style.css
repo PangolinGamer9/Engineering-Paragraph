@@ -17,7 +17,7 @@ body {
     top: 50px;
     left: 50%;
     transform: translate(-50%);
-    width:300px;
+    width:600px;
 }
   
 #observations-label {
@@ -35,7 +35,7 @@ body {
     left: 50%;
     transform: translate(-50%);
     top: 100px;
-    width:300px;
+    width:600px;
 }
 
 #logic-input {
@@ -45,7 +45,7 @@ body {
     top: 250px;
     resize: none;
     height: 100px;
-    width:300px;
+    width:600px;
 }
 
 #logic-label {
@@ -62,7 +62,7 @@ body {
     top: 400px;
     height: 100px;
     resize: none;
-    width:300px;
+    width:600px;
 }
 
 #conclusion-label {
@@ -87,7 +87,7 @@ body {
     left: 50%;
     transform: translate(-50%);
     top: 550px;
-    width:300px;
+    width:600px;
 }
 
 #api-label {
@@ -107,5 +107,5 @@ body {
     height: 50px;
     font-size: large;
     background-color: crimson;
-    width:300px;
+    width:600px;
 }
