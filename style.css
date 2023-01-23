@@ -1,0 +1,111 @@
+body {
+    background: #A1E9FF;
+    color: rgb(19, 143, 7);
+    padding: 25px;
+    font-family: cursive;
+}
+  
+#user-purpose-label {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#user-purpose-input {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    width:300px;
+}
+  
+#observations-label {
+    position: absolute;
+  
+    left: 50%;
+    transform: translate(-50%);
+    top: 75px;
+}
+
+#observations-input {
+    position: absolute;
+    resize: none;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 100px;
+    width:300px;
+}
+
+#logic-input {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 250px;
+    resize: none;
+    height: 100px;
+    width:300px;
+}
+
+#logic-label {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 225px; 
+}
+
+#conclusion-input {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 400px;
+    height: 100px;
+    resize: none;
+    width:300px;
+}
+
+#conclusion-label {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 375px;
+}
+
+#response{
+    color: black;
+    position: absolute;
+    left: 50%;
+    font-size: large;
+    transform: translate(-50%);
+    top: 675px;
+    padding-bottom: 25px;
+}
+
+#api-input {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 550px;
+    width:300px;
+}
+
+#api-label {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 525px;
+}
+
+#submit-button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 600px;
+    color:rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    font-size: large;
+    background-color: crimson;
+    width:300px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Sets the title of the webpage -->
+    <title>Chat</title>
+
+    <!-- Makes sure that the webpage can be viewed well on mobile devices -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+
+    <!-- Imports the proper javascript and css files -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+  </head>
+  <body>
+    <form>
+
+      <div id='user-purpose'>
+        <label id="user-purpose-label">Topic Statement:</label>
+        <input type="text" id="user-purpose-input">
+      </div>
+
+      <div id="observations">
+        <label id="observations-label">Observations:</label>
+        <textarea type="text" id="observations-input"></textarea>
+      </div>
+
+      <div id="observe-inputs">
+
+      </div>
+
+      <div id = "logic">
+        <label id = "logic-label">Logic:</label>
+        <textarea id = "logic-input" type="text"></textarea>
+      </div>
+
+      <div id = "conclusion">
+        <label id = 'conclusion-label'>Conclusion: </label>
+        <textarea id = 'conclusion-input' type = "text"></textarea>
+      </div>
+
+      <button type="button" onclick="submitPrompt()" id="submit-button">Submit</button>
+
+      <div id="apikeys">
+        <label id = "api-label">API key:</label>
+        <input id="api-input"></input>
+      </div>
+    </form>
+
+    <div id="response">Your response will show up here</div>
+  </body>
+</html>
